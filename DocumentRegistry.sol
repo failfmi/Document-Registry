@@ -24,7 +24,7 @@ contract DocumentRegistry {
         documents.push(Document(hash, dateAdded));
     }
 
-    function getDocumentsCount() public constant returns (uint length) {
+    function getDocumentsCount() public view returns (uint length) {
         length = documents.length;
     }
 
