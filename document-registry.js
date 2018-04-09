@@ -74,6 +74,7 @@ $(document).ready(function () {
         showView("viewSubmitDocument")
     });
     $('#linkGetDocuments').click(function () {
+		$('#viewGetDocuments div').remove();
         showView("viewGetDocuments");
         viewGetDocuments();
     });
